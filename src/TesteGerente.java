@@ -14,5 +14,7 @@ public class TesteGerente {
         boolean autinticou = g1.autentica(2222);
 
         Console.logPulaLina(autinticou);
+
+        Console.logPulaLina(g1.getBonificacao());
     }
 }

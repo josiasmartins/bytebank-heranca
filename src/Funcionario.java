@@ -2,6 +2,8 @@ public class Funcionario {
 
     private String nome;
     private String cpf;
+
+    // protected: visivel somente para classes filhos
     private double salario;
     private int tipo = 0;  // comum (0), gerente (1)
 

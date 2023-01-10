@@ -9,5 +9,7 @@ public class TesteFuncionario {
 
         Console.logPulaLina(nico.getName());
         Console.logPulaLina(nico.getBonificacao());
+
+
     }
 }
