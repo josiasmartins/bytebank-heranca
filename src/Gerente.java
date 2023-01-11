@@ -12,10 +12,11 @@ public class Gerente extends Funcionario {
         return false;
     }
 
+
     public double getBonificacao() {
         Console.logPulaLina("Chamando o boneficacao do GERENTE");
         // super.: fica explicito que a propriedade salario é da classe mae
-        return super.getBonificacao() + super.getSalario();
+        return 300;
     }
 
 

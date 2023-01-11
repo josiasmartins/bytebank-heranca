@@ -1,4 +1,5 @@
-public class Funcionario {
+// não pode instanciar dessa classe, porque é abstract
+public abstract class Funcionario {
 
     private String nome;
     private String cpf;
@@ -7,12 +8,8 @@ public class Funcionario {
     private double salario;
     private int tipo = 0;  // comum (0), gerente (1)
 
-    public double getBonificacao() {
-        if (this.tipo == 0) return this.salario * 0.1;
-        if (this.tipo == 1) return this.salario;
-
-        return this.tipo + 1000;
-    }
+    // método sem corpo, não a implementação
+    public abstract double getBonificacao();
 
     public int getTipo() {
         return tipo;
