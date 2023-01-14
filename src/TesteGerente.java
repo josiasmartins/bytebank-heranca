@@ -1,6 +1,9 @@
 public class TesteGerente {
 
     public static void main(String[] args) {
+        // Posso colocar na referencia, os contratos que ele assina
+        Autenticavel referencia = new Cliente();
+
         Gerente g1 = new Gerente();
         g1.setNome("Marco");
         g1.setCpf("2222222");
@@ -9,7 +12,7 @@ public class TesteGerente {
         Console.logPulaLina(g1.getName());
         Console.logPulaLina(g1.getCpf());
         Console.logPulaLina(g1.getSalario());
-
+        
         g1.setSenha(2222);
         boolean autinticou = g1.autentica(2222);
 
