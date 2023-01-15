@@ -11,6 +11,7 @@ public class TesteTributaveis {
         calc.registra(seguro);
 
         Console.logPulaLina(calc.getTotalImposto());
+
     }
 
 }
